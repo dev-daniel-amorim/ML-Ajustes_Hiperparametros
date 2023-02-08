@@ -2,7 +2,7 @@
 
 O objetivo deste tutorial é apresentar métodos de ajustes finos (tunning), em suma, ajustes de hiperparâmetros é um meio de refinar nosso melhor modelo em busca de uma melhor predição.
 
-Quando escolhemos o modelo "vencedor", até o momento não nos preocupamos muito com os parâmetros, ou seja, usamos os ajustes de "fábrica" e esses ajustes são feitos automaticamnente e sem nossa intervenção quando treinamos o modelo em busca do melhor ajuste que se adequa ao nosso propósito, quando passamos desta fase de escolha do melhor modelo ai vem a etapa de ajustes dos hiperparâmetros, nesta etapa, para nos auxiliar existem algumas ferramentas de otimização, iremos apresentar 3 delas que são:
+Quando escolhemos o modelo "vencedor", até o momento não nos preocupamos muito com os parâmetros, ou seja, usamos os ajustes de "fábrica" e esses ajustes são feitos automaticamnente e sem nossa intervenção quando treinamos o modelo, passado esta fase de escolha do melhor modelo ai vem a etapa de ajustes dos hiperparâmetros ou ajuste fino, e para nos auxiliar existem algumas ferramentas de otimização, iremos apresentar 3 delas que são:
 
 ## Grid search
 O Grid Search testa todas as combinações possíveis (este é o problema desse método), pois dependendo do modelo são milhares de combinações possíveis demandando muito tempo e processamento de máquina o que pode tornar o projeto inviável, num mundo hipotético onde tempo e processamento não fosse um problema esse seria de longe o melhor modelo de ajustes de hiperparâmetros, e como ele testa "todas" as combinações possíveis então uma hora ele acha a melhor combinação, por este motivo é considerado o melhor método de ajuste. o GS já faz parte do pacote scikit learn.
@@ -37,6 +37,9 @@ Aqui estão alguns exemplos comuns de hiperparâmetros,  Kizito (2020):
   - Tamanho do pool;
   - Tamanho do batch.
 
+
+## Notebook
+[Clique aqui para visualizar o notebook deste tutorial](#)
 
 ## Referências
 NYUYTIYMBIY, Kizito. Parâmetros e Hiperparâmetros em Machine Learning e Deep Learning. Website 30 de dezembro de 2020, disponível em <https://towardsdatascience.com/parameters-and-hyperparameters-aa609601a9ac>. Acesso em 08 de fevereiro de 2023.
