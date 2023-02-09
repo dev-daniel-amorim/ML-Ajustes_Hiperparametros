@@ -39,7 +39,7 @@ Aqui estão alguns exemplos comuns de hiperparâmetros,  Kizito (2020):
 
 
 ## Notebook
-[Clique aqui para visualizar o notebook deste tutorial](#)
+[Clique aqui para visualizar o notebook deste tutorial](https://github.com/dev-daniel-amorim/ML-Ajustes_Hiperparametros/blob/main/ML%20-%20Ajustes%20Hiperpar%C3%A2metros.ipynb)
 
 ## Referências
 NYUYTIYMBIY, Kizito. Parâmetros e Hiperparâmetros em Machine Learning e Deep Learning. Website 30 de dezembro de 2020, disponível em <https://towardsdatascience.com/parameters-and-hyperparameters-aa609601a9ac>. Acesso em 08 de fevereiro de 2023.
