@@ -1,4 +1,4 @@
-# Ajustes Hiperparametros
+# Ajustes Hiperparâmetros
 
 O objetivo deste tutorial é apresentar métodos de ajustes finos (tunning). Ajustes de hiperparâmetros é um meio de refinar nosso melhor modelo em busca de uma melhor desempenho.
 
@@ -56,7 +56,9 @@ Aqui estão alguns exemplos comuns de hiperparâmetros,  Kizito (2020):
   - Tamanho do batch.
 
 ## Um pequeno passo pro homem um grande salto pra humanidade
-RSRSRS, é até engraçado, mas não se enganem que hiperparâmetros irão elevar 10% a acurácia do seu modelo, na maioria das vezes estamos falando de 0,01% de melhoria (eis o motivo do titulo "...um grande salto pra humanidade"), porém 0,01% pode representar milhares em lucro para uma empresa ou para quem gosta de participar de campeonatos de ML, pode significar estar ou não em primeiro lugar!
+RSRSRS, é até engraçado, mas não se enganem que hiperparâmetros irão elevar 10% a acurácia do seu modelo, podemos ter casos de elevar somente 0,01% de melhoria, (eis o motivo do titulo "...um grande salto pra humanidade"), porém 0,01% pode representar milhares em lucro para uma empresa ou para quem gosta de participar de campeonatos de ML, pode significar estar ou não em primeiro lugar!
+
+Lembre-se, mais importante que fazer o tunning é fazer um excelente feature engineering.
 
 <img src='hm.jpg'>
 
