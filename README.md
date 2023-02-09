@@ -1,4 +1,4 @@
-# Ajustes Hiperparametros
+# Ajustes Hiperparâmetros
 
 O objetivo deste tutorial é apresentar métodos de ajustes finos (tunning). Ajustes de hiperparâmetros é um meio de refinar nosso melhor modelo em busca de uma melhor desempenho.
 
