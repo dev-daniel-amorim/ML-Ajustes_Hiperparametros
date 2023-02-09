@@ -33,11 +33,11 @@ Todos os métodos acima tem suas configurações bem parecidas com o exemplo aba
 
 
 ## Qual método escolher e como aplicar?
-Essa é uma pergunta muito difícil de responder, vai de projeto pra projeto, por exemplo, um projeto com poucas features, em que você pretende ajustar poucos hiperparâmetros e em que tempo e processamento não irá impactar no seu resultado com certeza o Grid search é a melhor opção, já projetos muito robustos o Grid search não é o mais indicado.<br>
-Para fazer o tunning de hiperparâmetros sempre use a validação (cross validation) nos dados de treino, os dados de teste "SEMPRE" devem ser deixados de fora e por último, quando tudo tiver ajustado e pronto pro teste final.
+Essa é uma pergunta muito difícil de responder, vai de projeto pra projeto, por exemplo, um projeto com poucas features, em que você pretende ajustar poucos hiperparâmetros e em que tempo e processamento não é um problema relevante com certeza o Grid search é a melhor opção, já projetos robustos o Grid search não é o mais indicado.<br>
+Para fazer o tunning de hiperparâmetros sempre use a validação (cross validation) nos dados de treino, os dados de teste "SEMPRE" devem ser deixados de fora e por último, quando tudo tiver ajustado e com os hiperparâmetros indicados pelo otimizador em mãos pronto pro teste final.
 
 ## Mas o que são hiperparâmetros?
-Hiperparâmetros são ajustes feitos a posteriori ao treinamento afim de "tunnar" nosso modelo.
+Hiperparâmetros são parâmetros de ajuste fino feitos a posteriori à escolha do modelo "vencedor"" afim de "tunnar" nosso modelo.
 
 Aqui estão alguns exemplos comuns de hiperparâmetros,  Kizito (2020):
 
@@ -54,6 +54,11 @@ Aqui estão alguns exemplos comuns de hiperparâmetros,  Kizito (2020):
   - Kernel ou tamanho do filtro em camadas convolucionais;
   - Tamanho do pool;
   - Tamanho do batch.
+
+## Um pequeno passo pro homem um grande salto pra humanidade
+RSRSRS, é até engraçado, mas não se enganem que hiperparâmetros irão elevar 10% a acurácia do seu modelo, na maioria das vezes estamos falando de 0,01% de melhoria (eis o motivo do titulo "...um grande salto pra humanidade"), porém 0,01% pode representar milhares em lucro para uma empresa ou para quem gosta de participar de campeonatos de ML, pode significar estar ou não em primeiro lugar!
+
+<img src='hm.jpg">
 
 
 ## Notebook
